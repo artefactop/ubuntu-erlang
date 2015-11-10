@@ -20,3 +20,6 @@ RUN wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb \
     && apt-get update \
     && apt-get install -y \
     	erlang=1:18.1 erlang-base-hipe=1:18.1 erlang-dev=1:18.1
+
+# Define default command.
+CMD ["bash"]
